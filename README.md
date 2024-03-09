@@ -1,4 +1,4 @@
-# codepolitanXdevhandal
+# Codepolitan X Devhandal
 
 Program CampusCoder dan Kodebisat 2023/23024
 

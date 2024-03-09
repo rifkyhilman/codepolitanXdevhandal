@@ -1,0 +1,21 @@
+body {
+    background: #c2ded1;
+    font-family: 'Nunito', sans-serif;
+}
+
+#navbar {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+#navbar .nav-link {
+    color: white;
+}
+
+#navbar .navbar-brand {
+    color: gray;
+}
+
+#navbar .navbar-toggler-icon {
+    color: gray;
+}
