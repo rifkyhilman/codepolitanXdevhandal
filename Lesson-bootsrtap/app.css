@@ -6,16 +6,52 @@ body {
 #navbar {
     font-size: 1rem;
     font-weight: 100;
+    background-color: #5ec496;
 }
 
 #navbar .nav-link {
     color: white;
 }
 
-#navbar .navbar-brand {
-    color: gray;
+#navbar .nav-link:hover {
+    color: black;
 }
 
-#navbar .navbar-toggler-icon {
-    color: gray;
+#navbar .navbar-brand {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+/* .navbar.scrolled {
+    background-color: #354259;
+    transition: background 500ms;
+} */
+
+#title-head {
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+.blurb h2 {
+    color: #354259;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #3f4e4f;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin: 100px 0 100px 0;
+}
+
+@media (max-width: 1200px) {
+    #title-head h1{
+        font-size: 2rem;
+    }
 }
