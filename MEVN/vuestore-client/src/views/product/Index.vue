@@ -6,7 +6,7 @@
         <img :src="product.imageUrl" :alt="product.name">
         <h3 class="product-name">{{ product.name }}</h3>
         <p class="product-price">Rp{{ product.price }}</p>
-        <router-link :to="{ name : 'prodcut-detail', params : {id: product.id} }">
+        <router-link :to="{ name : 'product-detail', params : {id: product.id} }">
           <button>
             Detail
           </button>
@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import { products } from '../../data-seed'
+import { products } from '../../data-seed';
 
 export default {
   data() {
