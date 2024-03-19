@@ -6,7 +6,7 @@
       </div>
       <div id="product-details">
         <h1>{{ product.name }}</h1>
-        <h3 id="price">Rp{{ product.price }}</h3>
+        <h3 id="price">Rp.{{ product.price }}</h3>
         <p>Avarage Rating: {{ product.averageRating }}</p>
         <button id="add-to-cart">
           Add to Cart
